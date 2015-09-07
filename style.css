@@ -1,3 +1,5 @@
+
+
 html {
 	box-sizing: border-box;
 }
@@ -49,4 +51,12 @@ div {
 .top-navigation .links > li:hover {
 	cursor: pointer;
 	color: #333333;
+}
+
+.introduction {
+	background-image: url('/Users/christopherjohnson/projects/thinkful/thinkful-projects/startup-landing-page-clone/css/first-background-copy.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
 }
