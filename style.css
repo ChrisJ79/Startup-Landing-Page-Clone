@@ -4,6 +4,9 @@ body {
 	background-color: lightgray;
 }
 
+div {
+	border: 1px solid Chocolate;
+}
 
 /* NAVIGATION SECTION */
 .top-navigation {
@@ -14,9 +17,12 @@ body {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-navigation .links > li {
+	float: right;
+	display: inline-block;
 }
 
 
-div {
-	border: 1px solid Chocolate;
-}
