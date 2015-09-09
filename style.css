@@ -10,6 +10,9 @@ html {
 
 body {
 	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 div {
@@ -19,6 +22,8 @@ div {
 /* NAVIGATION SECTION */
 .top-navigation {
 	background-color: #fff;
+	width: 100%;
+
 }
 
 .top-navigation > .content {
@@ -53,10 +58,31 @@ div {
 	color: #333333;
 }
 
+/* INTRODUCTION SECTION */
+
 .introduction {
 	background-image: url('/Users/christopherjohnson/projects/thinkful/thinkful-projects/startup-landing-page-clone/css/first-background-copy.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow:  auto;
+}
+
+.introduction h1, 
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+
+}	
+
+introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
 }
