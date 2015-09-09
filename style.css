@@ -112,5 +112,10 @@ div {
 	background-color: orange;
 	font-size: 1.125rem;
 	color: #fff;
+	height: 3em;
+}
 
+.big-button:hover {
+	background-color: #ff0000;
+	
 }
