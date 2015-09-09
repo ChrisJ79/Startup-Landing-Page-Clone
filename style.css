@@ -75,6 +75,7 @@ div {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    margin: 0 auto;
 }
 
 .introduction h1,
@@ -93,4 +94,12 @@ div {
 .introduction h3 {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+}
+
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
 }
