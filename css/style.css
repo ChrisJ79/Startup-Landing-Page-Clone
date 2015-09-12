@@ -58,7 +58,7 @@ div {
 
 .top-navigation .links > .active {
 	color: #4c5058;
-	font-weight: 500;
+	font-weight: 499;
 }
 
 .top-navigation .links > li:hover {
@@ -69,7 +69,7 @@ div {
 /* INTRODUCTION SECTION */
 
 .introduction {
-	background-image: url('/Users/christopherjohnson/projects/thinkful/thinkful-projects/startup-landing-page-clone/css/first-background-copy.jpg');
+	background-image: url('../images/first-background-copy.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
     background-size: cover;
