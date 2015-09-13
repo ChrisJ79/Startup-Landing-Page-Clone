@@ -20,16 +20,11 @@ div {
 	border: 1px solid Chocolate;
 }
 
-.content {
-	padding: 0 0.938rem;
-	margin: 0 auto;
-	min-width: 37.5rem;
-}
-
 
 /* NAVIGATION SECTION */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
 	width: 100%;
 
 }
@@ -78,9 +73,7 @@ div {
     margin: 0 auto;
 }
 
-.content {
-	text-align: center;
-}
+
 
 .introduction h1,
 .introduction h3 {
@@ -100,9 +93,19 @@ div {
 	font-size: 1.563rem;
 }
 
+.content {
+	text-align: center;
+}
+
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+
+/* learn-more button */
+
 .big-button {
-	margin-left: 0;
-	margin-right: 0;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
@@ -118,4 +121,14 @@ div {
 .big-button:hover {
 	background-color: #ff0000;
 
+}
+
+.cases {
+
+}
+
+.3-pics {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 10px;
 }
