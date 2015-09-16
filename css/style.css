@@ -66,7 +66,6 @@ body {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
-    margin: 0 auto;
 }
 
 
@@ -89,18 +88,32 @@ body {
 	font-size: 1.563rem;
 }
 
-.content {
-	text-align: center;
-}
+
 
 .content {
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
+	text-align: center;
 }
 
 /* learn-more button */
 
+.introductions .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
+
+/* this is the rule for .introduction .half {} , but I can't find the attribute .half in the html 
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2; */
+}
 .big-button {
 	text-shadow: none;
 	border-style: none;
