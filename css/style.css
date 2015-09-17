@@ -22,7 +22,7 @@ body {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
-	zindex: 9999;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -99,13 +99,9 @@ body {
 
 /* learn-more button */
 
-.introductions .buttons {
-	color: white;
-	text-align: center;
-	margin-top: 1.563rem;
-}
 
-/* this is the rule for .introduction .half {} , but I can't find the attribute .half in the html 
+
+/* this is the rule for .introduction .half {} , but I can't find .half in the html 
 .introduction .half {
     width: 49%;
     padding: 0 0.938rem;
@@ -114,7 +110,8 @@ body {
     font-size: 1.125rem;
     line-height: 1.2; */
 }
-.big-button {
+
+.content .buttons > .bigbutton {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
@@ -123,12 +120,15 @@ body {
 	width: 9rem;
 	background-color: blue;
 	font-size: 1.125rem;
-	color: #fff;
+	color: orange;
 	height: 3em;
+	margin-top: 1.563rem;
+	text-align: center;
+	
 }
 
-.big-button:hover {
-	background-color: #d9400e;
+.bigbutton:hover {
+	background-color: red;
 
 }
 /* THE 3 CASE IMAGES */
