@@ -23,6 +23,7 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+
 }
 
 .top-navigation > .content {
@@ -97,40 +98,26 @@ body {
 	text-align: center;
 }
 
-/* learn-more button */
+/*** THE LEARN MORE BUTTON ***/
 
-
-
-/* this is the rule for .introduction .half {} , but I can't find .half in the html 
-.introduction .half {
-    width: 49%;
-    padding: 0 0.938rem;
-    display: inline-block;
-    vertical-align: bottom;
-    font-size: 1.125rem;
-    line-height: 1.2; */
-}
-
-.content .buttons > .bigbutton {
+button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
-	line-height: 1.33;
-	width: 9rem;
-	background-color: blue;
+	padding: 1rem 1.5rem;
+	color: white;
 	font-size: 1.125rem;
-	color: orange;
-	height: 3em;
-	margin-top: 1.563rem;
-	text-align: center;
-	
 }
 
-.bigbutton:hover {
-	background-color: red;
-
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
+
 /* THE 3 CASE IMAGES */
 
 .cases {
