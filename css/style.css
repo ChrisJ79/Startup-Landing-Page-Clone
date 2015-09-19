@@ -21,8 +21,10 @@ body {
 .top-navigation {
 	background-color: #fff;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	z-index: 9999;
+
 
 }
 
@@ -139,6 +141,14 @@ button:hover {
 	font-weight: 300;
 }
 
+.cases .devices {
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
 .cases .devices > li {
     width: 33.3333333%;
     float:left;
@@ -162,10 +172,26 @@ button:hover {
 	text-align: center;
 }
 
+.social .content {
+	width: 60%;
+}
+
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 1.313rem 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social h5 {
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+}
+
+.social .icons {
+	-webkit-padding-start: 0;
 }
 
 .social .icons > li {
@@ -177,7 +203,6 @@ button:hover {
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
-
 }
 
 .social .icons > li:hover {
